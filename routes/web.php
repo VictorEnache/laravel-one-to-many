@@ -25,8 +25,8 @@ Route::middleware('auth')
 ->name('admin.')
 ->group(function(){
     
-    Route::get('/home', 'HomeController@index')
-    ->name('home');
+    Route::get('/admin', 'HomeController@index')
+    ->name('admin.index');
 
 });
 
